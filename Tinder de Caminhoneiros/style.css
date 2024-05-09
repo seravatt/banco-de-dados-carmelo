@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+label {
+    text-align: center;
+    font-size: 14px;
+  
+}
+  .login-button {
+    position: absolute;
+    top: 10px;
+    left: 1790px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }  
+
+
+.busca {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.busca label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.busca select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.busca button {
+    padding: 10px 20px;
+    background-color: #229355;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+
+.perfis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.card {
+    width: 300px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h3 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.card p {
+    padding: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.card button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #257e23;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}

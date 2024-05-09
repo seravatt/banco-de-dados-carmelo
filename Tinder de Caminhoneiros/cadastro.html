@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação de Produto</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <div class="container">
+        <img src="/verifica.png" alt="okay"> <h1>Cadastro do Cliente</h1>
+        <p>Informe seus dados para fazer orçamentos!</p>
+
+        <h2>Registrar</h2>
+        <form action="/login/login.html" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email">
+
+            <label for="gender">Sexo:</label>
+            <select id="gender" name="gender">
+                <br> 
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+            </select>
+
+            <label for="dateOfBirth">Data de Nascimento:</label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth">
+
+            
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha">
+
+            <button type="submit">Registrar</button>
+            <a href="/login/login.html"> </a>
+           <br> 
+           <button type="submit">Já possuo uma conta!</button>
+           <a href="/login/login.html"> </a>
+
+        </form>
+        
+    </div>
+</body>
+</html>

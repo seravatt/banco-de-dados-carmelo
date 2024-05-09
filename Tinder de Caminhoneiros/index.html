@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinder de Caminhoneiros</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/logo.png" alt="Logo Tinder de Caminhoneiros"> <h1>Tinder de Caminhoneiros</h1>
+        <br>
+        <p>Encontre o caminhoneiro ideal para sua carga!</p>
+        <button class="login-button">Login</button>
+        <a href="cadastro.html">
+            <button class="login-button">Login</button>
+          </a>
+    </header>
+
+    <main>
+        <section class="busca">
+            <h2>Encontre seu frete</h2>
+            <form action="#">
+                <label for="estado-origem">Estado de Origem:</label>
+                <select id="estado-origem" name="estado-origem">
+                    <option value="">Selecione um Estado</option>
+                    </select>
+
+                <label for="cidade-origem">Cidade de Origem:</label>
+                <select id="cidade-origem" name="cidade-origem">
+                    <option value="">Selecione uma Cidade</option>
+                    </select>
+
+                <label for="estado-destino">Estado de Destino:</label>
+                <select id="estado-destino" name="estado-destino">
+                    <option value="">Selecione um Estado</option>
+                    </select>
+
+                <label for="cidade-destino">Cidade de Destino:</label>
+                <select id="cidade-destino" name="cidade-destino">
+                    <option value="">Selecione uma Cidade</option>
+                    </select>
+
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+        <h2>Perfis Disponíveis</h2>
+        <section class="perfis">
+            
+        
+            <div class="card">
+                <img src="/caminhoneiro1.jpg" alt="Caminhoneiro 1">
+                <h3>João Silva</h3>
+                <p>Experiência: 5 anos | Região: Sul | Caminhão: Baú</p>
+                <button>Ver Perfil Completo</button>
+            </div>
+            <div class="card">
+                <img src="/caminhoneiro2.jpg" alt="Caminhoneiro 2">
+                <h3>Claudio Fernando</h3>
+                <p>Experiência: 3 anos | Região: Sudeste | Caminhão: Truque</p>
+                <button>Ver Perfil Completo</button>
+            </div>
+            <div class="card">
+                <img src="/caminhoneiro3.jpg" alt="Caminhoneiro 3">
+                <h3>Paulo Antônio</h3>
+                <p>Experiência: 2 anos | Região: Nordeste | Caminhão: Toco</p>
+                <button>Ver Perfil Completo</button>
+            </div>
+            <div class="card">
+                <img src="/caminhoneiro4.jpg" alt="Caminhoneiro 4">
+                <h3>José Junior</h3>
+                <p>Experiência: 7 anos | Região: Sul | Caminhão: Baú</p>
+                <button>Ver Perfil Completo</button>
+            </div>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tinder de Caminhoneiros</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
